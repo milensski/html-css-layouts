@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px/1.5 'Segoe UI', sans-serif;
+}
+
+body {
+    display:flex;
+    margin: 2em auto;
+    padding: 4em;
+    background-color: rgb(238, 238, 238);
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: Georgia, serif;
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+.page {
+    margin: 4em auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 74em;
+    gap: 1em;
+}
+
+
+.page > header {
+    flex: 1 1 100%;
+    border-bottom: 2px solid black;
+    padding-bottom: 1em;
+    
+}
+
+.page > main {
+    flex: 1 0 70%;
+
+}
+
+.page > aside {
+    flex: 1 0 20%;
+    margin-left: 4em;
+}
+
+.flex-paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.flex-paragraph p{
+    flex: 7 1 50%;
+
+}
+
+
+blockquote {
+    flex: 2 1 40%;
+    color: #aaa;
+    font-style: italic;
+    font-family: Georgia, serif;
+    border-left: 3px solid #ccc;
+    padding-left: 3em;
+    margin: 0 0px 0.5em 0.5em;
+}
+
+blockquote p {
+    float: right;
+}
+
+.page aside ul li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+
+}
+
+.page aside ul {
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+img[class*="align"] {
+    display: block;
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+    padding: 0.2em;
+    box-shadow: 0 0 0.3em 0.2em rgba(0,0,0, 0.2);
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.align-left {
+    float: left;
+    margin: 0.5em 1em 1em 0;
+
+}

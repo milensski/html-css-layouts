@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.5 'Segoe UI', sans-serif;
+}
+
+body {
+    margin: 2em auto;
+    padding: 4em;
+    display: flex;
+    background-color: #ddd;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    max-width: 50em;
+}
+
+.gallery ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2em;
+
+    
+}
+
+.gallery li {
+    flex: 1 1 300px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 6px solid black;
+    padding: 2em 1em;
+    box-shadow: 
+    0 0 1em 0.1em rgba(0, 0 ,0, 0.2),
+    0 0 1em rgba(0, 0 ,0, 0.5) inset;
+
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
