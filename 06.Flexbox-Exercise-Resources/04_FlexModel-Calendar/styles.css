@@ -22,22 +22,24 @@ section {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
 span {
+    flex: 1 1 auto;
     text-align: center;
-    padding: 1em;
+    padding: 2em;
     border: 1px solid black;
 }
 
 section.week span:nth-child(1),
 section.week span:nth-child(7) {
     flex-basis: 100%;
-    border: 1px solid red;
 }
 
 section.notes {
+    align-items: stretch;
     flex-direction: column;
-    justify-content: ;
+
 }
