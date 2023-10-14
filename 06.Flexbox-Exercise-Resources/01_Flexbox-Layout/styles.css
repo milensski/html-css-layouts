@@ -1,0 +1,36 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+header, main, aside, footer {
+    padding: 2rem;
+    background: #FFF;
+    color: #000;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 0.5em 1px rgba(0, 0, 0, 0.2);
+}
+
+header, footer {
+    flex-basis:100%;
+}
+
+main {
+    flex: 8 1 40rem;
+    min-height: 20vh;
+
+}
+
+aside {
+    flex: 2 1 20rem;
+}
